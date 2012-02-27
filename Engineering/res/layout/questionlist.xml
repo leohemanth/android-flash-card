@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/firstlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+      
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="7dp"
+            
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:textStyle="bold" >
+        </TextView>
+
+        
+        <!--
+    <ImageView android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:id="@+id/arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true"
+    android:background="@drawable/arrow" android:paddingRight="20dp" android:paddingBottom="30dp"></ImageView>
+        --><!--
+
+        <ImageView
+            android:id="@+id/button1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/piz" >
+        </ImageView>
+    --></RelativeLayout>
+
+</LinearLayout>
